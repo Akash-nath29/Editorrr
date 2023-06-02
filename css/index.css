@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+body {
+
+    background-color: #454545;
+
+    color: #fff;
+
+}
+
+label, footer {
+
+    font-family: 'Ubuntu Mono', monospace;
+
+}
+
+.container {
+
+    width: 100%;
+
+    height: 87vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.top, .bottom {
+
+    display: flex;
+
+    margin: 10px;
+
+}
+
+.codes {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    top: 0;
+
+    
+
+}
+
+.bottom {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+textarea {
+
+    width: 20vh;
+
+    height: 40vh;
+
+    margin: 5px;
+
+    background-color: #1f1f1f;
+
+    color: #fff;
+
+    font-size: 12px;
+
+    border: 0;
+
+    outline: 0;
+
+    padding: 10px;
+
+}
+
+iframe {
+
+    width: 70vh;
+
+    height: 40vh;
+
+    background-color: #fff;
+
+    border: 0;
+
+    outline: 0;
+
+    border-radius: 5px;
+
+}
+
+label {
+
+    background-color: #000;
+
+    font-size: 20px;
+
+    width: 100%;
+
+    padding: 6px;
+
+    border: 1px solid #454545;
+
+}
+
+label i {
+
+    padding: 10px;
+
+}
+
+.bottom {
+
+    width: 70vh;
+
+}
+
+.fa-html5 {
+
+    color: orange;
+
+}
+
+.fa-css3 {
+
+    color: skyblue;
+
+}
+
+.fa-code {
+
+    color: yellow;
+
+}
+
+.fa-play {
+
+    color: green;
+
+}
+
+.footer {
+
+    position: fixed;
+
+    bottom: 0;
+
+    width: 100%;
+
+    height: 100px;
+
+    background-color: #1f1f1f;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+/*Download option css below*/
+
+/*
+
+.footer span {
+
+    padding:10px 20px;
+
+    font-size: 30px;
+
+    border: 1px solid white;
+
+    border-radius: 10px;
+
+}
+
+.footer span input {
+
+    font-size: 25px;
+
+    border: 1px solid #1f1f1f;
+
+    border-radius: 10px;
+
+    color: #1f1f1f;
+
+    background-color: #fff;
+
+    transition-duration: 0.5s;
+
+    padding: 10px;
+
+}
+
+.footer span input:hover {
+
+    background-color: #1f1f1f;
+
+    color: #fff;
+
+}*/
+
+.footer a {
+
+    color: white;
+
+}
